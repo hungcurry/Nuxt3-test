@@ -1,0 +1,33 @@
+// -----------------
+// tailwindcss
+// -----------------
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+// -----------------
+// config
+// -----------------
+@import 'config/variables';
+@import 'config/mixins';
+@import 'config/import';
+@import 'config/base2';
+
+// --未用到----
+@import 'config/functions';
+@import 'config/extend';
+@import 'config/forloop';
+@import 'config/map';
+
+
+// -----------------
+// layout
+// -----------------
+@import 'layout/grid';
+
+
+// -----------------
+// modules
+// -----------------
+@import 'modules/tailwind';
